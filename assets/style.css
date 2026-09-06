@@ -46,3 +46,26 @@ footer {
     color: #9aa0a6;
     font-size: 0.9rem;
 }
+
+.custom-card {
+  background-color: #1e1e2e !important;
+  color: #cdd6f4 !important;
+  border: 1px solid #45475a !important;
+}
+
+
+.custom-gallery {
+  background-color: #181825 !important;
+  border: 1px solid #313244 !important;
+}
+
+
+.custom-btn {
+  background: #8ab4f8 !important;
+  color: #11111b !important;
+  border: none !important;
+}
+
+.custom-btn:hover {
+  filter: brightness(1.1);
+}
