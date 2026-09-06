@@ -1,4 +1,4 @@
-/* assets/style.css */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,28 +6,15 @@
 }
 
 body {
-    background-color: #202124;
-    color: #e8eaed;
+    background-color: #202124 !important;
+    color: #e8eaed !important;
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
 }
 
 .logo-title {
     font-size: 3.5rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     letter-spacing: -0.5px;
     color: #8ab4f8;
 }
@@ -35,6 +22,32 @@ body {
 .epic-text {
     font-size: 1.25rem;
     color: #bdc1c6;
+}
+
+
+.custom-card {
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+    border: 1px solid #45475a !important;
+}
+
+.custom-card .card-text {
+  color: #a6adc8 !important;
+}
+
+.custom-gallery {
+    background-color: #181825 !important;
+    border: 1px solid #313244 !important;
+}
+
+.custom-btn {
+    background-color: #8ab4f8 !important;
+    color: #11111b !important;
+    border: none !important;
+}
+
+.custom-btn:hover {
+    filter: brightness(1.1);
 }
 
 footer {
@@ -45,27 +58,4 @@ footer {
     border-top: 1px solid #3c4043;
     color: #9aa0a6;
     font-size: 0.9rem;
-}
-
-.custom-card {
-  background-color: #1e1e2e !important;
-  color: #cdd6f4 !important;
-  border: 1px solid #45475a !important;
-}
-
-
-.custom-gallery {
-  background-color: #181825 !important;
-  border: 1px solid #313244 !important;
-}
-
-
-.custom-btn {
-  background: #8ab4f8 !important;
-  color: #11111b !important;
-  border: none !important;
-}
-
-.custom-btn:hover {
-  filter: brightness(1.1);
 }
